@@ -1,10 +1,12 @@
 package com.magiworld;
 
+import org.w3c.dom.Attr;
+
 import java.util.Scanner;
 
 public class Attributs {
 
-    int personnage, niveau, force, agilite, intelligence, vie, player, nb;
+    int personnage, niveau, force, agilite, intelligence, vie, player, nb, turn;
     Scanner scanner;
     Attributs playerPersonnage;
 
@@ -18,43 +20,82 @@ public class Attributs {
         this.vie = vie;
         this.player = player;
         this.personnage = personnage;
+        turn = 1;
     }
 
     public void setPersonnage(){
         System.out.println("Veuillez choisir la classe de votre personnage " + "(" + "1 : Guerrier, " + "2 : Rôdeur, " + "3 : Mage)");
         scanner = new Scanner(System.in);
         int nb  = scanner.nextInt();
-        personnage = nb;
-        setNiveau();
+        if (nb >= 1 && nb <= 3) {
+            personnage = nb;
+            setNiveau();
+        } else {
+            System.out.println("Veuillez cjoisir parmis les classes de personnages proposées!");
+            setPersonnage();
+        }
     }
 
     public void setNiveau(){
         System.out.println("Niveau du personnage ?");
         nb = scanner.nextInt();
-        niveau = nb;
-        setForce();
-
+        if(nb >= 1 && nb <= 100){
+            niveau = nb;
+            setForce();
+        } else {
+            System.out.println("Veuillez séléctionner un niveau entre 1 et 100");
+            setNiveau();
+        }
     }
 
     public void setForce(){
         System.out.println("Force du personnage ?");
         nb = scanner.nextInt();
-        force = nb;
-        setAgilite();
+        if(force <= niveau) {
+            if (nb >= 0 && nb <= 100) {
+                force = nb;
+                setAgilite();
+            } else {
+                System.out.println("Veuillez choisir la Force de votre personnage entre 0 et 100");
+                setForce();
+            }
+        } else {
+            System.out.println("La Force ne doit pas dépasser le Niveau");
+        }
     }
 
     public void setAgilite(){
         System.out.println("Agilité du personnage ?");
         nb = scanner.nextInt();
-        agilite = nb;
-        setIntelligence();
+        if (force + nb <= niveau){
+            if(nb >= 0 && nb <= 100) {
+                agilite = nb;
+                setIntelligence();
+            } else {
+                System.out.println("Veuillez choisir l'Agilité de votre personnage entre 0 et 100");
+                setAgilite();
+            }
+        } else {
+            System.out.println("La combinaison de Force et Agilité ne doit pas dépasser le Niveau");
+            setAgilite();
+        }
     }
 
     public void setIntelligence(){
         System.out.println("Intelligence du personnage ?");
         nb = scanner.nextInt();
-        intelligence = nb;
-        infoJoueur(personnage);
+        if (force + agilite + nb <= niveau) {
+            if (nb >= 0 && nb <= 100) {
+                intelligence = nb;
+                infoJoueur(personnage);
+            } else {
+                System.out.println("Veuillez choisir l'Intéligence de votre personnage entre 0 et 100");
+                setIntelligence();
+            }
+        } else {
+            System.out.println("La combinaison de Force, Agilité et Intelligence ne doit pas dépasser le Niveau");
+            setIntelligence();
+        }
     }
 
     public void infoJoueur(int personnage){
@@ -68,38 +109,34 @@ public class Attributs {
             case 3 :
                 playerPersonnage = new Mage(this.personnage, niveau, force, agilite, intelligence, vie, player);
                 break;
-            case 4:
-                break;
         }
     }
 
-    public void choisirAction(){
+    public void choisirAction(Attributs joueur){
         if (vie > 0) {
-            System.out.println("Joueur " + player + " (" + vie + " Vitalité) veuillez choisir votre action" + "( 1 : Attaque Basique, 2 : Attaque Spécial )");
+            System.out.println("Joueur " + joueur.player + " (" + vie + " Vitalité) veuillez choisir votre action" + "( 1 : Attaque Basique, 2 : Attaque Spécial )");
         }else {
-            System.out.println("Jouer " + player + " a perdu");
-
+            System.out.println("Jouer " + joueur.player + " a perdu");
         }
-
     }
 
     public void setAttack(int choice, Attributs attaque, Attributs defense){
         Scanner scanner = new Scanner(System.in);
-        changePlayerTurn();
         switch (choice){
             case 1:
-                attaque.attaqueBasique(defense);
+                attaque.attaqueBasique(defense, attaque);
                 break;
             case 2:
-                attaque.attaqueSpecial(defense);
+                attaque.attaqueSpecial(defense, attaque);
                 break;
         }
-        if (player == 1){
-            attaque.choisirAction();
+        changePlayerTurn();
+        if (turn == 1){
+            attaque.choisirAction(attaque);
             int nb = scanner.nextInt();
             defense.setAttack(nb, attaque, defense);
-        } else if (player == 2){
-            defense.choisirAction();
+        } else if (turn == 2){
+            defense.choisirAction(defense);
             int nb = scanner.nextInt();
             defense.setAttack(nb, defense, attaque);
         }
@@ -109,50 +146,50 @@ public class Attributs {
         return player;
     }
 
-    public void attaqueBasique(Attributs joueur){
+    public void attaqueBasique(Attributs joueur, Attributs attaque){
         if(personnage == 1){
-            System.out.println("Joueur 1 utilise Coup d'Epée et inflige " + joueur.force + " dommages" + "\n" + "Joueur 2 perd " + joueur.force + " points de vie");
+            System.out.println("Joueur " + attaque.player + " utilise Coup d'Epée et inflige " + joueur.force + " dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.force + " points de vie");
             joueur.vie -= joueur.force;
         }
         if(personnage ==2){
-            System.out.println("Joueur 1 utilise Tir à l'Arc et inflige " + agilite + " dommages");
-            System.out.println("Joueur 2 perd " + agilite  + " points de vie");
+            System.out.println("Joueur " + getPLayer() + " utilise Tir à l'Arc et inflige " + agilite + " dommages");
+            System.out.println("Joueur " + joueur.player +" perd " + agilite  + " points de vie");
             joueur.vie -= agilite;
         }
         if(personnage == 3){
-            System.out.println("Joueur 1 utilise Boule de Feu et inflige " + joueur.intelligence + " dommages" + "\n" + "Joueur 2 perd " + joueur.intelligence + " points de vie");
+            System.out.println("Joueur " + getPLayer() + " utilise Boule de Feu et inflige " + joueur.intelligence + " dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.intelligence + " points de vie");
             joueur.vie -= joueur.intelligence;
         }
+
     }
 
-    public void attaqueSpecial(Attributs joueur){
+    public void attaqueSpecial(Attributs joueur, Attributs attaque){
         if(personnage == 1){
-            System.out.println("Joueur 1 utilise Coup de Rage et inflige " + joueur.force * 2 +" dommages" + "\n" + "Joueur 2 perd " + joueur.force * 2 + " points de vie");
-            System.out.println("Joueur 1 perd " + force / 2 + " points de vie");
+            System.out.println("Joueur " + getPLayer() + " utilise Coup de Rage et inflige " + joueur.force * 2 +" dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.force * 2 + " points de vie");
+            System.out.println("Joueur "  + " perd " + force / 2 + " points de vie");
             joueur.vie -= joueur.force * 2;
             vie -= force / 2;
         }
         if (personnage == 2){
-            System.out.println("Joueur 1 utilise Concentration et gagne " + niveau / 2 + " en agilité");
+            System.out.println("Joueur " + getPLayer() +" utilise Concentration et gagne " + niveau / 2 + " en agilité");
             agilite +=  niveau / 2;
         }
         if(personnage == 3){
             if(vie < niveau * 5) {
                 vie += intelligence * 2;
-                System.out.println("Joueur 1 utilise Soin et gagne " + intelligence * 2 + " en vitalité");
+                System.out.println("Joueur " + getPLayer() + " utilise Soin et gagne " + intelligence * 2 + " en vitalité");
             } else {
-                System.out.println("Joueur 1 utilise Soin mais la Vie est au maximum");
+                System.out.println("Joueur " + getPLayer() + " utilise Soin mais la Vie est au maximum");
             }
         }
+
     }
 
     public void changePlayerTurn(){
-        if (player == 1){
-            player = 2;
-        } else if (player == 2){
-            player = 1;
+        if (turn == 2){
+            turn = 1;
+        } else {
+            turn = 2;
         }
-
     }
-
 }

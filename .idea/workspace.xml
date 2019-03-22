@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25370ad6-837a-49f6-8589-fdc10a46d43d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/AttributsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCRMagiWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OCRMagiWorld.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/magiworld/Attributs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magiworld/Attributs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magiworld/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magiworld/Guerrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magiworld/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magiworld/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magiworld/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magiworld/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magiworld/Rôdeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magiworld/Rôdeur.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +25,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/AttributsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/magiworld/Attributs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+            <state relative-caret-position="-302">
+              <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
               <folding>
-                <element signature="e#2314#2315#0" expanded="true" />
-                <element signature="e#2343#2344#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3244#3245#0" expanded="true" />
+                <element signature="e#3273#3274#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +117,17 @@
               <item name="MagiWorld-OCR" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagiWorld-OCR" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MagiWorld-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553270594382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553273844482" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -167,12 +185,20 @@
       <updated>1553249059622</updated>
       <workItem from="1553249063116" duration="810000" />
       <workItem from="1553256764728" duration="310000" />
-      <workItem from="1553265214571" duration="5181000" />
+      <workItem from="1553265214571" duration="8565000" />
     </task>
+    <task id="LOCAL-00001" summary="Création du Joueur 2 dans la class Main &#10;&#10;Ajout des actions et des methodes pour les types  &#10;d'attaques de chaque personnage.">
+      <created>1553270794902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553270794902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6301000" />
+    <option name="totallyTimeSpent" value="9685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -242,7 +268,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Création du Joueur 2 dans la class Main &#10;&#10;Ajout des actions et des methodes pour les types  &#10;d'attaques de chaque personnage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Création du Joueur 2 dans la class Main &#10;&#10;Ajout des actions et des methodes pour les types  &#10;d'attaques de chaque personnage." />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/magiworld/Rôdeur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -257,13 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Guerrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/magiworld/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -271,13 +301,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/AttributsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/magiworld/Attributs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        <state relative-caret-position="-302">
+          <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
           <folding>
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="e#3273#3274#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -334,7 +372,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>OCR MagiWorld</last-edited>
+          <last-edited>OCRMagiWorld</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

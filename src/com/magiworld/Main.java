@@ -20,7 +20,7 @@ public class Main {
         player2 = new Attributs(0, 0, 0, 0, 0, 0, 2);
         player2.setPersonnage();
         player2 = new Attributs(player2.personnage, player2.niveau, player2.force, player2.agilite, player2.intelligence, player2.vie, 2);
-        player1.choisirAction();
+        player1.choisirAction(player1);
         nb = scanner.nextInt();
         player1.setAttack(nb, player1, player2);
     }
