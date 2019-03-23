@@ -6,6 +6,7 @@ public class Main {
 
     /**
      * Création des joueurs 1 et 2
+     * le joueur 1 commence par attaquer avec la methode choisirAction()
      */
 
     public static void main(String[] args) {
