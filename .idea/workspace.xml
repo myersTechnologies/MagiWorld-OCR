@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25370ad6-837a-49f6-8589-fdc10a46d43d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/magiworld/MageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/magiworld/RodeurTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OCRMagiWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OCRMagiWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magiworld/Attributs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magiworld/Attributs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/magiworld/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/magiworld/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/AttributsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/magiworld/AttributsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/magiworld/AttributsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/magiworld/AttributsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/magiworld/RodeurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/magiworld/RodeurTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/magiworld/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="374">
               <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
@@ -32,11 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/magiworld/AttributsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -44,59 +36,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/magiworld/Attributs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
+            <state relative-caret-position="2244">
+              <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/magiworld/Guerrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/magiworld/Rôdeur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/magiworld/RodeurTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/magiworld/Mage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/magiworld/MageTest.java">
+        <entry file="file://$PROJECT_DIR$/test/com/magiworld/RodeurTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +76,11 @@
         <option value="$PROJECT_DIR$/src/com/magiworld/Rôdeur.java" />
         <option value="$PROJECT_DIR$/src/com/magiworld/Main.java" />
         <option value="$PROJECT_DIR$/src/com/magiworld/Mage.java" />
-        <option value="$PROJECT_DIR$/src/com/magiworld/Attributs.java" />
+        <option value="$PROJECT_DIR$/test/com/magiworld/MageTest.java" />
         <option value="$PROJECT_DIR$/test/com/magiworld/AttributsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/magiworld/Attributs.java" />
         <option value="$PROJECT_DIR$/test/com/magiworld/GuerrierTest.java" />
         <option value="$PROJECT_DIR$/test/com/magiworld/RodeurTest.java" />
-        <option value="$PROJECT_DIR$/test/com/magiworld/MageTest.java" />
       </list>
     </option>
   </component>
@@ -158,6 +111,12 @@
             <path>
               <item name="MagiWorld-OCR" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagiWorld-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="magiworld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld-OCR" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,7 +139,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553348296325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553349893072" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -206,8 +165,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MageTest.Given_DammagesToEnnemi_When_SimpleAttackIsUsed_Then_EnnemyIntelligencyEqualsToDammage">
-    <configuration name="AttributsTest.Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AttributsTest.Given_AnotherNumber_When_PlayersChooseAttackType_Then_DisplayError">
+    <configuration name="AttributsTest.Given_AnotherNumber_When_PlayersChooseAttackType_Then_DisplayError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OCRMagiWorld" />
       <extension name="coverage">
         <pattern>
@@ -217,13 +176,45 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.magiworld" />
       <option name="MAIN_CLASS_NAME" value="com.magiworld.AttributsTest" />
-      <option name="METHOD_NAME" value="Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError" />
+      <option name="METHOD_NAME" value="Given_AnotherNumber_When_PlayersChooseAttackType_Then_DisplayError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuerrierTest.Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AttributsTest.Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OCRMagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magiworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.magiworld" />
+      <option name="MAIN_CLASS_NAME" value="com.magiworld.AttributsTest" />
+      <option name="METHOD_NAME" value="Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttributsTest.Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OCRMagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magiworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.magiworld" />
+      <option name="MAIN_CLASS_NAME" value="com.magiworld.AttributsTest" />
+      <option name="METHOD_NAME" value="Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuerrierTest.Given_DammageToEnnemi_WhenBasicAttackIsUsed_Then_RemoveLifeToEnnemi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OCRMagiWorld" />
       <extension name="coverage">
         <pattern>
@@ -233,45 +224,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.magiworld" />
       <option name="MAIN_CLASS_NAME" value="com.magiworld.GuerrierTest" />
-      <option name="METHOD_NAME" value="Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" />
+      <option name="METHOD_NAME" value="Given_DammageToEnnemi_WhenBasicAttackIsUsed_Then_RemoveLifeToEnnemi" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MageTest.Given_DammagesToEnnemi_When_SimpleAttackIsUsed_Then_EnnemyIntelligencyEqualsToDammage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OCRMagiWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.magiworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.magiworld" />
-      <option name="MAIN_CLASS_NAME" value="com.magiworld.MageTest" />
-      <option name="METHOD_NAME" value="Given_DammagesToEnnemi_When_SimpleAttackIsUsed_Then_EnnemyIntelligencyEqualsToDammage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MageTest.Given_TooMuchLifeToMage_When_SpecialAttackIsUsed_Then_ShowErrorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OCRMagiWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.magiworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.magiworld" />
-      <option name="MAIN_CLASS_NAME" value="com.magiworld.MageTest" />
-      <option name="METHOD_NAME" value="Given_TooMuchLifeToMage_When_SpecialAttackIsUsed_Then_ShowErrorMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RodeurTest.Given_AgilityToRodeur_When_SpecialAttackIsUsed_Then_AugmenteNiveau" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RodeurTest.Given_DammageToEnnemi_When_BasicAttackIsUsed_Then_DammageEqualsToEnnemyAgility" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OCRMagiWorld" />
       <extension name="coverage">
         <pattern>
@@ -281,7 +240,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.magiworld" />
       <option name="MAIN_CLASS_NAME" value="com.magiworld.RodeurTest" />
-      <option name="METHOD_NAME" value="Given_AgilityToRodeur_When_SpecialAttackIsUsed_Then_AugmenteNiveau" />
+      <option name="METHOD_NAME" value="Given_DammageToEnnemi_When_BasicAttackIsUsed_Then_DammageEqualsToEnnemyAgility" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MageTest.Given_DammagesToEnnemi_When_SimpleAttackIsUsed_Then_EnnemyIntelligencyEqualsToDammage" />
-        <item itemvalue="JUnit.RodeurTest.Given_AgilityToRodeur_When_SpecialAttackIsUsed_Then_AugmenteNiveau" />
-        <item itemvalue="JUnit.GuerrierTest.Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" />
-        <item itemvalue="JUnit.AttributsTest.Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError" />
-        <item itemvalue="JUnit.MageTest.Given_TooMuchLifeToMage_When_SpecialAttackIsUsed_Then_ShowErrorMessage" />
+        <item itemvalue="JUnit.AttributsTest.Given_AnotherNumber_When_PlayersChooseAttackType_Then_DisplayError" />
+        <item itemvalue="JUnit.RodeurTest.Given_DammageToEnnemi_When_BasicAttackIsUsed_Then_DammageEqualsToEnnemyAgility" />
+        <item itemvalue="JUnit.GuerrierTest.Given_DammageToEnnemi_WhenBasicAttackIsUsed_Then_RemoveLifeToEnnemi" />
+        <item itemvalue="JUnit.AttributsTest.Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn" />
+        <item itemvalue="JUnit.AttributsTest.Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +268,7 @@
       <updated>1553249059622</updated>
       <workItem from="1553249063116" duration="810000" />
       <workItem from="1553256764728" duration="310000" />
-      <workItem from="1553265214571" duration="18126000" />
+      <workItem from="1553265214571" duration="19642000" />
     </task>
     <task id="LOCAL-00001" summary="Création du Joueur 2 dans la class Main &#10;&#10;Ajout des actions et des methodes pour les types  &#10;d'attaques de chaque personnage.">
       <created>1553270794902</created>
@@ -332,49 +291,56 @@
       <option name="project" value="LOCAL" />
       <updated>1553339647476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rédaction des tests unitaires pour chaque class">
+      <created>1553348391282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553348391282</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AttributsTest_Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError - 2019.03.23 at 13h 58m 20s.xml">
-      <configuration name="AttributsTest.Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AttributsTest_Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError - 2019.03.23 at 13h 58m 39s.xml">
-      <configuration name="AttributsTest.Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AttributsTest_Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError - 2019.03.23 at 14h 00m 57s.xml">
-      <configuration name="AttributsTest.Given_AnotherNumber_When_PlayersChooseAttackType_Then_ShowError" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife - 2019.03.23 at 14h 16m 55s.xml">
-      <configuration name="GuerrierTest.Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife - 2019.03.23 at 14h 17m 47s.xml">
-      <configuration name="GuerrierTest.Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife - 2019.03.23 at 14h 18m 43s.xml">
-      <configuration name="GuerrierTest.Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife - 2019.03.23 at 14h 19m 29s.xml">
-      <configuration name="GuerrierTest.Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife - 2019.03.23 at 14h 22m 02s.xml">
-      <configuration name="GuerrierTest.Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuerrierTest_Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife - 2019.03.23 at 14h 22m 24s.xml">
-      <configuration name="GuerrierTest.Given_DammageToHimSelf_When_SpecialAttackIsUsed_Then_RemoveLife" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RodeurTest_Given_AgilityToRodeur_When_SpecialAttackIsUsed_Then_AugmenteNiveau - 2019.03.23 at 14h 33m 45s.xml">
       <configuration name="RodeurTest.Given_AgilityToRodeur_When_SpecialAttackIsUsed_Then_AugmenteNiveau" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MageTest_Given_DammagesToEnnemi_When_SimpleAttackIsUsed_Then_EnnemyIntelligencyEqualsToDammage - 2019.03.23 at 14h 38m 24s.xml">
+      <configuration name="MageTest.Given_DammagesToEnnemi_When_SimpleAttackIsUsed_Then_EnnemyIntelligencyEqualsToDammage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AttributsTest_Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn - 2019.03.23 at 14h 45m 34s.xml">
+      <configuration name="AttributsTest.Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AttributsTest_Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn - 2019.03.23 at 14h 46m 13s.xml">
+      <configuration name="AttributsTest.Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AttributsTest_Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn - 2019.03.23 at 14h 46m 29s.xml">
+      <configuration name="AttributsTest.Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AttributsTest_Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn - 2019.03.23 at 14h 49m 45s.xml">
+      <configuration name="AttributsTest.Given_PlayerTurn_When_CurrentPlayerIsAttacking_Then_ChangePlayersTurn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AttributsTest_Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn - 2019.03.23 at 14h 51m 16s.xml">
+      <configuration name="AttributsTest.Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AttributsTest_Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn - 2019.03.23 at 14h 51m 25s.xml">
+      <configuration name="AttributsTest.Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AttributsTest_Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn - 2019.03.23 at 14h 54m 13s.xml">
+      <configuration name="AttributsTest.Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuerrierTest_Given_DammageToEnnemi_WhenBasicAttackIsUsed_Then_RemoveLifeToEnnemi - 2019.03.23 at 14h 59m 51s.xml">
+      <configuration name="GuerrierTest.Given_DammageToEnnemi_WhenBasicAttackIsUsed_Then_RemoveLifeToEnnemi" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19246000" />
+    <option name="totallyTimeSpent" value="20762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +350,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32950193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32950193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32950193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -442,7 +408,8 @@
     <MESSAGE value="Création du Joueur 2 dans la class Main &#10;&#10;Ajout des actions et des methodes pour les types  &#10;d'attaques de chaque personnage." />
     <MESSAGE value="creation du fonctionnement du jeu" />
     <MESSAGE value="Fix du bug de la séléction du tour des chaque joueur." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix du bug de la séléction du tour des chaque joueur." />
+    <MESSAGE value="Rédaction des tests unitaires pour chaque class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rédaction des tests unitaires pour chaque class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
@@ -459,47 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Guerrier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Mage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Attributs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/magiworld/GuerrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/magiworld/AttributsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -510,27 +440,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/magiworld/RodeurTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Guerrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Attributs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Mage.java">
+    <entry file="file://$PROJECT_DIR$/test/com/magiworld/MageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/magiworld/MageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/magiworld/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="374">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/magiworld/GuerrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/magiworld/AttributsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/magiworld/RodeurTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

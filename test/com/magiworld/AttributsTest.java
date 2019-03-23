@@ -2,9 +2,7 @@ package com.magiworld;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
-
 import java.io.ByteArrayOutputStream;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class AttributsTest {
@@ -24,5 +22,12 @@ public class AttributsTest {
         assertEquals(3, 3);
         System.out.println("Veuillez choisir parmis les actions proposés !");
         attack.choisirAction(attack);
+    }
+
+    @Test
+    public void Given_Turn_When_CurrentPlayerFinishAttack_Then_ChangePlayersTurn(){
+        Attributs attack = new Attributs(1, 2, 1, 1, 0, 10, 1);
+        attack.changePlayerTurn();
+        assertTrue(attack.turn == 2);
     }
 }
