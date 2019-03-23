@@ -147,7 +147,7 @@ public class Attributs {
             defense.setAttack(nb, defense, attaque);
         }
     }
-    
+
     public void attaqueBasique(Attributs joueur, Attributs attaque){
         if(personnage == 1){
             System.out.println("Joueur " + attaque.player + " utilise Coup d'Epée et inflige " + joueur.force + " dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.force + " points de vie");
@@ -195,5 +195,8 @@ public class Attributs {
         }
     }
 
-    public void selectedAttackType(int selection){}
+    public int selectedAttackType(int selection){
+        return selection;
+    }
+
 }
