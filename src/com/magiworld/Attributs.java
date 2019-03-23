@@ -152,12 +152,12 @@ public class Attributs {
             joueur.vie -= joueur.force;
         }
         if(personnage ==2){
-            System.out.println("Joueur " + getPLayer() + " utilise Tir à l'Arc et inflige " + agilite + " dommages");
+            System.out.println("Joueur " + attaque.player + " utilise Tir à l'Arc et inflige " + attaque.agilite + " dommages");
             System.out.println("Joueur " + joueur.player +" perd " + agilite  + " points de vie");
-            joueur.vie -= agilite;
+            joueur.vie -= attaque.agilite;
         }
         if(personnage == 3){
-            System.out.println("Joueur " + getPLayer() + " utilise Boule de Feu et inflige " + joueur.intelligence + " dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.intelligence + " points de vie");
+            System.out.println("Joueur " + attaque.player + " utilise Boule de Feu et inflige " + joueur.intelligence + " dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.intelligence + " points de vie");
             joueur.vie -= joueur.intelligence;
         }
 
@@ -165,30 +165,30 @@ public class Attributs {
 
     public void attaqueSpecial(Attributs joueur, Attributs attaque){
         if(personnage == 1){
-            System.out.println("Joueur " + getPLayer() + " utilise Coup de Rage et inflige " + joueur.force * 2 +" dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.force * 2 + " points de vie");
-            System.out.println("Joueur "  + " perd " + force / 2 + " points de vie");
+            System.out.println("Joueur " + attaque.player + " utilise Coup de Rage et inflige " + joueur.force * 2 +" dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.force * 2 + " points de vie");
+            System.out.println("Joueur " + attaque.player + " perd " + force / 2 + " points de vie");
             joueur.vie -= joueur.force * 2;
             vie -= force / 2;
         }
         if (personnage == 2){
-            System.out.println("Joueur " + getPLayer() +" utilise Concentration et gagne " + niveau / 2 + " en agilité");
+            System.out.println("Joueur " + attaque.player +" utilise Concentration et gagne " + niveau / 2 + " en agilité");
             agilite +=  niveau / 2;
         }
         if(personnage == 3){
             if(vie < niveau * 5) {
                 vie += intelligence * 2;
-                System.out.println("Joueur " + getPLayer() + " utilise Soin et gagne " + intelligence * 2 + " en vitalité");
+                System.out.println("Joueur " + attaque.player + " utilise Soin et gagne " + intelligence * 2 + " en vitalité");
             } else {
-                System.out.println("Joueur " + getPLayer() + " utilise Soin mais la Vie est au maximum");
+                System.out.println("Joueur " + attaque.player + " utilise Soin mais la Vie est au maximum");
             }
         }
-
     }
 
     public void changePlayerTurn(){
         if (turn == 2){
             turn = 1;
-        } else {
+        }
+        if (turn == 1){
             turn = 2;
         }
     }
