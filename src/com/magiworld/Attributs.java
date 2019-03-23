@@ -125,10 +125,16 @@ public class Attributs {
         switch (choice){
             case 1:
                 attaque.attaqueBasique(defense, attaque);
+                attaque.selectedAttackType(1);
                 break;
             case 2:
                 attaque.attaqueSpecial(defense, attaque);
+                attaque.selectedAttackType(2);
                 break;
+                default:
+                    System.out.println("Veuillez choisir parmis les actions proposés !");
+                    attaque.choisirAction(attaque);
+                    break;
         }
         changePlayerTurn();
         if (turn == 1){
@@ -141,11 +147,7 @@ public class Attributs {
             defense.setAttack(nb, defense, attaque);
         }
     }
-
-    public int getPLayer(){
-        return player;
-    }
-
+    
     public void attaqueBasique(Attributs joueur, Attributs attaque){
         if(personnage == 1){
             System.out.println("Joueur " + attaque.player + " utilise Coup d'Epée et inflige " + joueur.force + " dommages" + "\n" + "Joueur " + joueur.player + " perd " + joueur.force + " points de vie");
@@ -192,4 +194,6 @@ public class Attributs {
             turn = 2;
         }
     }
+
+    public void selectedAttackType(int selection){}
 }

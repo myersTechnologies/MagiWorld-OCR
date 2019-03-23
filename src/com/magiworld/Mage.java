@@ -16,10 +16,5 @@ public class Mage extends Attributs{
                 " d'agilité, " + intelligence + " d'intelligence !" );
     }
 
-    public void attaqueBasique(Attributs player){
-        System.out.println("Joueur " + getPLayer() + " utilise Boule de Feu et inflige " + player.intelligence + " dommages" + "\n" + "Joueur 2 perd " + player.intelligence + " points de vie");
-        player.vie -= player.intelligence;
-    }
-
 
 }
